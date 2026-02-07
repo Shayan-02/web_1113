@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+span{
+    font-size: 60px;
+    font-weight: bold;
+}
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+#yellow{
+    color: yellow;
+}
+#green{
+    color: green;
+}
