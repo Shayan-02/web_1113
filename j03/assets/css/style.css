@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&family=Vazirmatn:wght@100..900&display=swap');
+
+@font-face {
+    font-family: yas;
+    src: url(./../fonts/B\ YAS-.TTF);
+}
+
+*{
+    direction: rtl;
+    font-family: Vazirmatn;
+}
+
+h1{
+    font-family: Vazirmatn;
+}
+
+p{
+    font-family: yas;
+}
+
+span{
+    font-family: "Playwrite NZ Basic"
+}

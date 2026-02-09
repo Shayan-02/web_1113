@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+span{
+    width: 70%;
+    font-size: 40px;
+    font-weight: 600;
+    display: inline-block;
+}
+
