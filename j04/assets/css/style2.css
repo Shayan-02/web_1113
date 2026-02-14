@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu{
+    background-color: red;
+
+}
+
+ul{
+    background-color: aqua;
+    display: inline;
+}
+
+li{
+    /* padding-top: 50px; */
+    padding: 50px 30px;
+    display: inline;
+}
+
+.l1{
+    background-color: chocolate;
+}
+
+.l2{
+    background-color: cornflowerblue;
+}
+
+.l3{
+    background-color: crimson;
+}
