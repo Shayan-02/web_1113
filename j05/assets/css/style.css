@@ -1,0 +1,48 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&family=Vazirmatn:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    direction: rtl;
+    font-family: Vazirmatn;
+    font-size: 18px;
+}
+
+.top{
+    text-align: center;
+    border-bottom: 1px solid black;
+    height: 80px;
+}
+
+.item, #menu{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+img:hover{
+    transform: rotate(-360deg);
+    transition: all 2s ease-in-out;
+}
+
+.item-link{
+    color: gray;
+    cursor: zoom-out;
+}
+
+.item-link:hover{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    transition: all 1s ease-in-out;
+}
