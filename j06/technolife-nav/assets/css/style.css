@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction : rtl;
+}
+
+.top{
+    height: 60px;
+    /* text-align: center; */
+}
+
+ul, li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+a{
+    color: #666666;
+    font-weight: 600;
+}
+
+#se{
+    color: #70C4FF;
+}

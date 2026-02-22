@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    direction: rtl;
+}
+/*
+.s1{
+    background-color: blueviolet;
+    display: block;
+}
+
+#p1{
+    background-color: cornflowerblue;
+    display: inline;
+}
+
+h1{
+    background-color: coral;
+    display: inline-block;
+    width: 50%;
+} */
+
+.header{
+    height: 70px;
+    border-bottom: 1px solid gray;
+}
+
+ul, li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+a{
+    color: gray;
+}
