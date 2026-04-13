@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&family=Vazirmatn:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction : rtl;
+    font-family: Vazirmatn;
+}
+
+nav{
+    box-shadow: 0px 5px 15px -5px #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.top-bar{
+    width: 70%;
+    height: 70px;
+    /* background-color: darksalmon; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.right, ul, .left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.top-bar a{
+    color: gray;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+#profile{
+    border-radius: 50%;
+    width: 40px;
+}
+
+.event{
+    font-size: 22px;
+}
