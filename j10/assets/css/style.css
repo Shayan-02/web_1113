@@ -1,0 +1,79 @@
+@font-face {
+    font-family: laleh;
+    src: url(./../fonts/Lalezar-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    direction: rtl;
+    font-family: laleh;
+}
+
+/* .test{
+    position: sticky;
+    background-color: burlywood;
+    height: 20px;
+}
+
+p{
+    font-size: 50px;
+    background-color: blue;
+    /* position: reletive -> pedar */
+    /* position: relative; */
+    /* position: absolute -> safhe (bala semt e chap) */
+    /* position: absolute; */
+    /* position: fixed; */
+    /* position: sticky; */
+
+.item{
+    width: 100vw;
+    height: 100vh;
+}
+
+#item-1{
+    background-color: cornflowerblue;
+}
+
+#item-2{
+    background-color: crimson;
+}
+
+#item-3{
+    background-color: khaki;
+}
+
+#item-4{
+    background-color: hotpink;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    width: 160px;
+    background-color: lawngreen;
+    position: fixed;
+    top: 40%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.menu a{
+    font-size: 1.4rem;
+    padding-right: 10px;
+}
+
+.menu li:hover{
+    background-color: #727272;
+    width: 100%;
+}
+
+.menu li:first-child{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}

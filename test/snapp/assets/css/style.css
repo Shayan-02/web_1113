@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction : rtl;
+}
+
+.container{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    position: fixed;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.item-link{
+    position: relative;
+}
+
+.sub-menu{
+    position: absolute;
+    width: 200px;
+}
+
+.sub-menu ul{
+    flex-direction: column;
+}

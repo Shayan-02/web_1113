@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction : rtl;
+}
+
+nav{
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    position: fixed;
+    width: 100vw;
+    background-color: aliceblue;
+    z-index: 100;
+}
+
+nav, .container, .menu, .right, .left{
+    display: flex;
+}
+
+.container{
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 60px;
+}
+
+.right, .left{
+    align-items: center;
+}
+
+.menu{
+    gap: 20px;
+}
+
+.left{
+    gap: 10px;
+}
+
+.profile{
+    border-radius: 50%;
+}

@@ -1,0 +1,81 @@
+@font-face {
+    font-family: vazir;
+    src: url(./../../../../j08/snapp/asset/fonts/VAZIR.TTF);
+}
+
+*{
+    font-family: vazir;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction : rtl;
+}
+
+
+.item{
+    width: 100vw;
+    height: 100vh;
+}
+
+#item1{
+    background-color: coral;
+}
+
+#item2{
+    background-color: cornflowerblue;
+}
+
+#item3{
+    background-color: chartreuse;
+}
+
+#item4{
+    background-color: crimson;
+}
+
+nav{
+    position: fixed;
+    margin: calc(50% - 150px) 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 230px;
+    background-color: aliceblue;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+li{
+    padding: 10px;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 5;
+    border: none;
+}
+
+li:first-child{
+    border-top-left-radius: 50px;
+}
+
+li:last-child{
+    border-bottom-left-radius: 50px;
+}
+
+li:hover{
+    transition: all .5s ease-in;
+    background-color: rgba(174, 57, 252, 0.76);
+    a{
+        color: whitesmoke;
+    }
+}
+
+li a{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 500;
+}

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* li{
+    display: inline-block;
+    margin-right: 50px;
+} */
+
+/* ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: coral;
+    height: 200px;
+}
+
+li{
+    font-size: 3rem;
+}
+ */
+
+.container{
+    display: flex;
+    background-color: gray;
+    height: 300px;
+    /* flex-wrap: wrap-reverse;
+    flex-direction: column-reverse; */
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    order: 1;
+}
+
+.item-1{
+    background-color: coral;
+}
+.item-2{
+    background-color: cornflowerblue;
+    order: 2;
+}
+.item-3{
+    background-color: crimson;
+}
+.item-4{
+    background-color: chocolate;
+}
+.item-5{
+    background-color: chartreuse;
+    order: 2;
+}
+.item-6{
+    background-color: darkorchid;
+    order: 3;
+}
+.item-7{
+    background-color: dodgerblue;
+}
+.item-8{
+    background-color: indianred;
+}
+.item-9{
+    background-color: rgb(255, 40, 173);
+}
+.item-10{
+    background-color: lightblue;
+}
+.item-11{
+    background-color: rgb(233, 255, 36);
+}
+.item-12{
+    background-color: rgb(231, 102, 79);
+}
+
+@media screen and (min-width : 700px) {
+    body{
+        background-color: rgb(43, 226, 52);
+    }
+}
+
+@media screen and (max-width : 700px) {
+    body{
+        background-color: rgb(183, 43, 226);
+    }
+}
