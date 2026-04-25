@@ -1,0 +1,85 @@
+@font-face {
+    font-family: vazir;
+    src: url(./../fonts/VAZIR.TTF);
+}
+
+*{
+    font-family: vazir;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction : rtl;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.main-menu{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 70%;
+}
+
+.item{
+    position: relative;
+}
+
+.sub-menu{
+    display: none;
+    position: absolute;
+    z-index: 1100;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    top: 30px;
+    width: 170px;
+}
+
+.menu-sub li{
+    padding: 0.5rem;
+}
+
+.menu-sub li:first-child{
+    padding-top: .35rem;
+}
+
+.menu-sub li:last-child{
+    padding-bottom: .35rem;
+}
+
+.item:hover .sub-menu{
+    display: flex;
+}
+
+
+
+.menu a{
+    color: #333;
+    font-size: 1.1rem;
+    /* font-weight: 600; */
+}
+
+.menu a:hover{
+    color: #00D170;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.to-top{
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #00D170;
+}
+
