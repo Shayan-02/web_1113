@@ -33,6 +33,7 @@
 
 .item{
     position: relative;
+    padding: 10px;
 }
 
 .sub-menu{
@@ -44,6 +45,8 @@
     border-radius: 0.5rem;
     top: 30px;
     width: 170px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .menu-sub li{
