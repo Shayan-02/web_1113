@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* body{
+    /* background: linear-gradient(120deg, rgba(152, 255, 111, 0.719), rgba(77, 212, 253, 0.726)); */
+    /* background: radial-gradient(blue, red); */
+
+
+li:nth-child(2n){
+    background-color: cornflowerblue;
+}
+
+li:nth-child(2n+1) {
+    background-color: coral;
+}
+
+li::before{
+    content: "☀️";
+}
+
+li::after{
+    content: "❌";
+}
+
+.number::after{
+    content: " -> salam <-";
+}
+
+#flower:hover{
+    /* transform: rotate(720deg); */
+    transform: scale(2);
+    transition: all 1.5s ease-in-out;
+}

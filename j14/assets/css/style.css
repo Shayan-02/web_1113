@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    height: 50px;
+    background-color: chocolate;
+}
+
+.box h1{
+    display: none;
+}
+
+.box:hover h1{
+    display: block;
+}
